@@ -1,0 +1,157 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.pruebasLina.controller.Estadisticas" xmlns="sap.m" xmlns:chart="sap.chart" xmlns:data="sap.chart.data" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="571px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="180px" width="180px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="738px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="180px" width="180px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="907px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="180px" width="180px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="1109px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="180px" width="180px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="1034px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="180px" width="180px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.10.08_a._m..png" height="180px" width="571px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="457px" top="33px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;p style=&quot;color: white; font-size: 36px; line-height: 1.5; text-align: center; font-weight: bold;&quot;> Estadísticas &lt;/p>" width="451px" height="142.99632263183594px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="876px" top="212px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;p style=&quot;color: black; font-size: 30px; line-height: 1.5; text-align: center;&quot;> Calidad de la propuesta&lt;/p>" width="331.316650390625px" height="110.31666564941406px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="120px" top="215px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;p style=&quot;color: black; font-size: 30px; line-height: 1.5; text-align: center;&quot;> Tiempo de respuesta &lt;/p>" width="331px" height="106.31666564941406px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="869px" top="294px">
+                        <layout:control>
+                            <chart:Chart id="sap_m_Page_0-content-sap_chart_ColumnChart-1716538252177" width="374px" height="335px" visibleDimensions="__id" visibleMeasures="mea0" vizProperties="{staticDataModel>/sap_m_Page_0-content-sap_chart_ColumnChart-1716538252177/vizProperties}" chartType="column" selectionMode="Single" uiConfig="{}">
+                                <chart:dimensions>
+                                    <data:Dimension name="__id" label="Calificacion" role="series" textProperty="dim0"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="Cantidad" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="521px" top="212px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;p style=&quot;color: black; font-size: 30px; line-height: 1.5; text-align: center;&quot;> Canales de contacto&lt;/p>" width="329px" height="118px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="13px" top="580px">
+                        <layout:control>
+                            <Table width="auto" noDataText="No data" mode="None" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" class="sapUiResponsiveMargin">
+                                <infoToolbar>
+                                    <Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                        <content>
+                                            <Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                        </content>
+                                    </Toolbar>
+                                </infoToolbar>
+                                <headerToolbar>
+                                    <OverflowToolbar width="auto" height="auto" design="Transparent" visible="true" enabled="true">
+                                        <content>
+                                            <Title text="Promedio" titleStyle="Auto" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                            <ToolbarSpacer width=""/>
+                                        </content>
+                                    </OverflowToolbar>
+                                </headerToolbar>
+                                <columns>
+                                    <Column width="auto" hAlign="Center" vAlign="Top" minScreenWidth="Phone" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                        <header/>
+                                        <footer/>
+                                    </Column>
+                                    <Column width="auto" hAlign="Center" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                        <header/>
+                                        <footer/>
+                                    </Column>
+                                    <Column width="auto" hAlign="Center" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+                                        <header/>
+                                        <footer/>
+                                    </Column>
+                                </columns>
+                                <items>
+                                    <ColumnListItem type="Active">
+                                        <cells>
+                                            <ObjectIdentifier title="" text="3.33" titleActive="false" visible="true"/>
+                                            <Text text="3.3" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                            <ObjectNumber number="2.5" unit="" emphasized="true" state="None"/>
+                                        </cells>
+                                    </ColumnListItem>
+                                </items>
+                            </Table>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="100px" top="295px">
+                        <layout:control>
+                            <chart:Chart id="sap_m_Page_0-content-sap_chart_ColumnChart-1716538227878" width="374px" height="335px" visibleDimensions="__id" visibleMeasures="mea0" vizProperties="{staticDataModel>/sap_m_Page_0-content-sap_chart_ColumnChart-1716538227878/vizProperties}" chartType="column" selectionMode="Single" uiConfig="{}">
+                                <chart:dimensions>
+                                    <data:Dimension name="__id" label="Calificacion" role="series" textProperty="dim0"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="Cantidad" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="499px" top="293px">
+                        <layout:control>
+                            <chart:Chart id="sap_m_Page_0-content-sap_chart_ColumnChart-1716538245730" width="374px" height="335px" visibleDimensions="__id" visibleMeasures="mea0" vizProperties="{staticDataModel>/sap_m_Page_0-content-sap_chart_ColumnChart-1716538245730/vizProperties}" chartType="column" selectionMode="Single" uiConfig="{}">
+                                <chart:dimensions>
+                                    <data:Dimension name="__id" label="Calificacion" role="series" textProperty="dim0"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="Cantidad" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="35px" top="193px">
+                        <layout:control>
+                            <Button text="Regresar" type="Back" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

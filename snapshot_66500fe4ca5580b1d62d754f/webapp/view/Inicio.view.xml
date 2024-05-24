@@ -1,0 +1,97 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.pruebasLina.controller.Inicio" xmlns="sap.m" xmlns:f="sap.f" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="426px" top="645px">
+                        <layout:control>
+                            <SegmentedButton enabled="true" visible="true">
+                                <items>
+                                    <SegmentedButtonItem icon="sap-icon://person-placeholder" text="Cliente Nuevo" width="200px" enabled="true" press="_onSegmentedButtonItemPress"/>
+                                    <SegmentedButtonItem icon="sap-icon://customer" text="Cliente Registrado" width="200px" enabled="true" press="_onSegmentedButtonItemPress1"/>
+                                </items>
+                            </SegmentedButton>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="745px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="242.37130737304688px" width="492.0404052734375px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="420px" top="745px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="242.37130737304688px" width="492.0404052734375px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="797px" top="745px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="242.37130737304688px" width="492.0404052734375px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.10.08_a._m..png" height="199.99998474121094px" width="634.4301147460938px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="92px" top="250px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;p style=&quot;color: black; font-size: 18px; line-height: 1.5; text-align: justify; padding-left: 20px; padding-right: 20px;&quot;>     Aquí usted podrá registrar su opinión sobre el servicio prestado por Legal Business. Por favor, seleccione si usted es un usuario registrado, es decir, si ya ha hecho algún registro en esta plataforma antes, o si es su primera vez como cliente nuevo. Le agradecemos tomarse su tiempo para realizar este feedback que nos ayudará a mejorar continuamente nuestros servicios. Estas encuestas de satisfacción son esenciales para nuestra empresa, ya que nos permiten entender mejor las necesidades y expectativas de nuestros clientes. Su opinión es muy valiosa para nosotros y juega un papel crucial en la mejora de nuestros productos y servicios. Al conocer sus experiencias, podemos identificar áreas que requieren atención y trabajar en ellas para ofrecerle una experiencia aún mejor en el futuro. Nos comprometemos a analizar detenidamente cada una de sus respuestas para implementar mejoras efectivas y oportunas. Además, sus comentarios nos ayudan a reconocer y premiar a nuestro personal por el excelente trabajo realizado. Gracias a su participación, podemos mantenernos competitivos y asegurar que nuestros estándares de calidad se mantengan altos. Queremos asegurarle que su feedback será tratado con la máxima confidencialidad y respeto, y será utilizado únicamente con el fin de mejorar nuestros servicios. Una vez más, le agradecemos por dedicar su tiempo a proporcionarnos su valiosa opinión. Juntos, podemos construir un servicio que cumpla con sus expectativas y necesidades. &lt;/p>" width="1080.9373779296875px" height="354.9999694824219px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="969px" top="922px">
+                        <layout:control>
+                            <Link href="https://www.instagram.com/legalbusiness.co/" text="Legal Business" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="false" subtle="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="967px" top="822px">
+                        <layout:control>
+                            <Link href="https://legalbf.com" text="www.legalfb.com" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="false" subtle="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="888px" top="791px">
+                        <layout:control>
+                            <f:Avatar src="sap-icon://chain-link" initials="" displayShape="Circle" displaySize="M" imageFitType="Cover"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="891px" top="887px">
+                        <layout:control>
+                            <f:Avatar src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.34.32_a._m..png" initials="" displayShape="Circle" displaySize="M" imageFitType="Cover"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="887px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="200px" width="406px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="625px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="200px" width="406px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="199px" top="34px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;p style=&quot;color: white; font-size: 36px; line-height: 1.5; text-align: center; font-weight: bold;&quot;>     Bienvenido a Legal Feedback &lt;/p>" width="937.9411010742188px" height="142.99632263183594px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="1112px" top="141px">
+                        <layout:control>
+                            <ToggleButton pressed="true" text="Administrador" icon="sap-icon://role" iconFirst="true" width="auto" enabled="true" visible="true" press="_onToggleButtonPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

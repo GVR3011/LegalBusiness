@@ -1,0 +1,120 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.pruebasLina.controller.InicioDeSesion" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:f="sap.f" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="366px" top="316px">
+                        <layout:control>
+                            <form:Form width="807.89000000px" editable="true" visible="true">
+                                <form:title/>
+                                <form:formContainers>
+                                    <form:FormContainer visible="true">
+                                        <form:formElements>
+                                            <form:FormElement visible="true">
+                                                <form:label>
+                                                    <Label text="Usuario" design="Bold" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                </form:label>
+                                                <form:fields>
+                                                    <Input id="sap_m_Page_0-5nmkua7u3o6k1v2ksvlgpxp29_S9-content-build_simple_form_Form-1716532656090-formContainers-build_simple_form_FormContainer-1-formElements-build_simple_form_FormElement-1-fields-sap_m_Input-1" type="Text" showValueHelp="false" enabled="true" visible="true" width="339.9999694824219px" valueHelpOnly="false" required="true" valueStateText="Invalid entry" maxLength="100"/>
+                                                </form:fields>
+                                            </form:FormElement>
+                                            <form:FormElement visible="true">
+                                                <form:label>
+                                                    <Label text="Contraseña" design="Bold" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                </form:label>
+                                                <form:fields>
+                                                    <Input id="sap_m_Page_0-5nmkua7u3o6k1v2ksvlgpxp29_S9-content-build_simple_form_Form-1716532656090-formContainers-build_simple_form_FormContainer-1-formElements-build_simple_form_FormElement-1716532736965-fields-sap_m_Input-1" type="Password" showValueHelp="false" enabled="true" visible="true" width="339.9999694824219px" valueHelpOnly="true" required="true" valueStateText="Invalid entry" maxLength="0"/>
+                                                </form:fields>
+                                            </form:FormElement>
+                                        </form:formElements>
+                                        <form:title/>
+                                    </form:FormContainer>
+                                </form:formContainers>
+                                <form:layout>
+                                    <form:ResponsiveGridLayout adjustLabelSpan="false" columnsL="2" labelSpanL="3" columnsM="1" labelSpanM="2" labelSpanS="12"/>
+                                </form:layout>
+                            </form:Form>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="745px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="242.37130737304688px" width="492.0404052734375px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="420px" top="745px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="242.37130737304688px" width="492.0404052734375px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="797px" top="745px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="242.37130737304688px" width="492.0404052734375px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="969px" top="922px">
+                        <layout:control>
+                            <Link href="https://www.instagram.com/legalbusiness.co/" text="Legal Business" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="false" subtle="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="967px" top="822px">
+                        <layout:control>
+                            <Link href="https://legalbf.com" text="www.legalfb.com" textAlign="Begin" width="auto" target="_blank" wrapping="false" enabled="true" visible="true" emphasized="false" subtle="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="888px" top="791px">
+                        <layout:control>
+                            <f:Avatar src="sap-icon://chain-link" initials="" displayShape="Circle" displaySize="M" imageFitType="Cover"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="891px" top="887px">
+                        <layout:control>
+                            <f:Avatar src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.34.32_a._m..png" initials="" displayShape="Circle" displaySize="M" imageFitType="Cover"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.10.08_a._m..png" height="199.99998474121094px" width="634.4301147460938px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="887px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="200px" width="406px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="625px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Captura_de_pantalla_2024-05-24_a_la_s__12.29.07_a._m..png" height="200px" width="406px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="198px" top="33px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;p style=&quot;color: white; font-size: 36px; line-height: 1.5; text-align: center; font-weight: bold;&quot;>   Inicio sesión administrador &lt;/p>" width="937.9411010742188px" height="142.99632263183594px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="1113px" top="142px">
+                        <layout:control>
+                            <ToggleButton pressed="true" text="Inicio" icon="sap-icon://home" iconFirst="true" width="auto" enabled="true" visible="true" press="_onToggleButtonPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="624px" top="463px">
+                        <layout:control>
+                            <ToggleButton pressed="true" text="Iniciar Sesión" iconFirst="true" width="auto" enabled="true" visible="true" press="_onToggleButtonPress1"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>
